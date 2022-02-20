@@ -270,14 +270,18 @@ li{
     margin: auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    
+       
 }
 
-.footer__link {
+.footer__link--image {
     text-decoration: none;
 } 
 
+.footer__link--image:hover {
+    filter: opacity(0.9);
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
 
 @media screen and (max-width:900px){
     .container{
