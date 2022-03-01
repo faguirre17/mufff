@@ -1,0 +1,81 @@
+.main {
+    background-color: $color1;
+    border: 10px solid $color2;
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .main__form {
+        border: 10px solid $color2;
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+    
+    }
+    
+    .form__container{
+        border: 10px solid $color2;
+    
+    }
+    .main__groups{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main__boxes{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .main__boxes-box{
+        margin: 10px 20px;
+        padding: 20px 20px;
+        border: 10px solid $color2;
+    }
+    
+    .main__history{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__histoy--image{
+        width: 50%;
+    }
+    
+    .main__recitals{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .main__discography{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .main__discography--image{
+        width: 50%;
+    }
+    
+    .main__box {
+        margin-top: 70px;
+        height: 450px;
+        width: 300px;
+        padding: 20px;
+        border: 10px solid $color2;
+    
+    }
+   
+}
+
+

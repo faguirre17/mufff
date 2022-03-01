@@ -1,0 +1,35 @@
+.header__box{
+    display: flex;
+    background-color: $color1;
+    border: 10px solid $color2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    padding:20px 180px;
+
+    .header__text{
+        border: 10px solid $color2;
+    }
+    
+    .header__title{
+        border: 10px solid $color2;
+        background-color: $color1;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .header__text--list {
+        text-align: left;
+        display:flex;
+        flex-direction: column;
+        padding-left: 40px;
+      
+    }
+    
+}
+

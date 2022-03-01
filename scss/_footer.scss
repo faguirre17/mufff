@@ -1,0 +1,28 @@
+.footer {
+    background-color: $color1;
+    border: 10px solid $color2;
+    margin-top: 20px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    .footer__rrss {
+        width: 80%;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+           
+    }
+    
+    .footer__link--image {
+        text-decoration: none;
+        &:hover {
+            filter: opacity(0.9);
+            transform: scale(1.2);
+            transition: transform 0.3s ease-in-out;
+        }
+    } 
+    }
+
