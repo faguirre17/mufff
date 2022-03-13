@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    @include color-invertido;
     .main__form {
         border: 10px solid $color2;
         height: fit-content;

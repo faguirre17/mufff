@@ -69,6 +69,21 @@ body {
   overflow: hidden;
   padding: 60px 0px; }
 
+.footer__link--image, .btn--spotify:hover, .btn--facebook:hover, .btn--instagram:hover, .btn--youtube:hover {
+  font-size: 0.5rem; }
+
+:hover.btn--spotify {
+  background-color: #109c46; }
+
+:hover.btn--facebook {
+  background-color: #3a5795; }
+
+:hover.btn--instagram {
+  background-color: #C25E30; }
+
+:hover.btn--youtube {
+  background-color: #c72f2f; }
+
 .nav {
   margin: auto;
   width: 80%;
@@ -142,7 +157,9 @@ body {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #D6B564;
+  color: #F27F3D; }
   .main .main__form {
     border: 10px solid #D6B564;
     height: fit-content;
@@ -235,9 +252,5 @@ body {
     margin: auto;
     justify-content: space-evenly;
     flex-wrap: wrap; }
-  .footer .footer__link--image {
+  .footer .footer__link--image, .footer .btn--spotify:hover, .footer .btn--facebook:hover, .footer .btn--instagram:hover, .footer .btn--youtube:hover {
     text-decoration: none; }
-    .footer .footer__link--image:hover {
-      filter: opacity(0.9);
-      transform: scale(1.2);
-      transition: transform 0.3s ease-in-out; }

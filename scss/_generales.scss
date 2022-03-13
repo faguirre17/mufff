@@ -19,3 +19,27 @@ body {
     overflow: hidden;
     padding: 60px 0px;
 }
+
+$redes: ( 
+        spotify: #109c46,
+        facebook:  #3a5795,
+        instagram: #C25E30,
+        youtube: #c72f2f
+);
+
+.footer__link--image {
+    font-size: 0.5rem;
+}
+
+
+@each $red, $color in $redes {
+   &:hover.btn--#{$red} {
+        background-color: $color;
+        @extend .footer__link--image;
+   }
+}
+
+@mixin color-invertido {
+    background-color: $color2;
+    color: $color1;
+  }
